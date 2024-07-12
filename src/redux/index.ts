@@ -4,6 +4,7 @@ import Searchslice from './state/Search.slice'
 import DarkModeSlice from './state/DarkMode.slice'
 import HistorySlice from './state/History.slice'
 import HistoryModalSlice from './state/HistoryModal.slice'
+import CheckModal from './state/CheckModal'
 
 
 export const store = configureStore({
@@ -12,7 +13,8 @@ export const store = configureStore({
     Searchslice,
     DarkModeSlice,
     HistorySlice,
-    HistoryModalSlice
+    HistoryModalSlice,
+    CheckModal
   
   }
 })
